@@ -1,0 +1,7 @@
+// export const CurrentProjectId = "cmlgzzmsc00061uo7fieeco24";
+export const CurrentProjectId = "cmlpdzx52000p1tnwgefj4yo4";
+
+// export const APP_URL = "http://localhost:5000";
+export const APP_URL = "https://qahwajige-backend-ppqtou.cranl.net";
+
+export const currentURL = "https://www.qahwery.com";

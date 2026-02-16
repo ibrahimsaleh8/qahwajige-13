@@ -1,0 +1,114 @@
+{
+  "projectId": "qahwajin-ksa-13",
+  "name": "قهوجين الرياض",
+  "description": "أفضل خدمات القهوجين في الرياض لجميع المناسبات والفعاليات مع فريق محترف وتجهيز كامل للقهوة.",
+  "isActive": true,
+  "siteSettings": {
+    "siteTitle": "قهوجين الرياض - خدمات قهوجين مميزة للمناسبات",
+    "siteDescription": "نوفر أفضل القهوجين في الرياض لتقديم القهوة والمشروبات في مناسباتكم وفعالياتكم بكل احترافية وجودة عالية.",
+    "siteKeywords": [
+      "قهوجين",
+      "قهوجين بالرياض",
+      "قهوجين للمناسبات",
+      "خدمات قهوجين",
+      "قهوجين احترافية"
+    ],
+    "phone": "+9660506142019",
+    "whatsapp": "+9660506142019",
+    "email": "info@qahwajialriyad.com",
+    "address": "الرياض – المملكة العربية السعودية",
+    "brandName": "قهوجين الرياض"
+  },
+  "heroSection": {
+    "headline": "أفضل",
+    "headlineHighlight": "قهوجين بالرياض",
+    "subheadline": "نوفر لك فريق قهوجين محترف لتقديم القهوة والمشروبات في جميع مناسباتك وفعالياتك مع جودة عالية وخدمة ممتازة.",
+    "primaryCtaText": "احجز الآن",
+    "primaryCtaLink": "#contact",
+    "secondaryCtaText": "خدماتنا",
+    "secondaryCtaLink": "#services",
+    "backgroundImage": "/",
+    "isActive": true
+  },
+  "aboutSection": {
+    "label": "من نحن",
+    "title": "قهوجين متخصصون في الرياض",
+    "description1": "فريقنا من القهوجين المحترفين يقدم القهوة والمشروبات في مناسباتكم وفعالياتكم بأعلى جودة واحترافية لضمان تجربة لا تُنسى.",
+    "image": "https://res.cloudinary.com/dg8bbwiu5/image/upload/v1770490770/uploads/rouets0vw42tmtqzmftz.jpg"
+  },
+  "servicesSection": {
+    "label": "خدماتنا",
+    "title": "خدمات القهوجين لدينا",
+    "description": "نوفر فريق قهوجين متخصص لكل المناسبات، مع تجهيز كامل للقهوة والمشروبات الساخنة والباردة.",
+    "services": [
+      {
+        "icon": "Coffee",
+        "title": "قهوجين محترف",
+        "description": "تقديم القهوة العربية والمشروبات الساخنة بطريقة احترافية لضيوفك."
+      },
+      {
+        "icon": "Users",
+        "title": "خدمة الضيافة للمناسبات",
+        "description": "نوفر خدمة القهوة والمشروبات لكل الفعاليات والمناسبات مع فريق متمرس."
+      },
+      {
+        "icon": "Heart",
+        "title": "تجهيز كامل",
+        "description": "تجهيز المكان وتقديم القهوة مع كل مستلزمات الضيافة المطلوبة."
+      }
+    ]
+  },
+  "whyUsSection": {
+    "label": "لماذا نحن",
+    "title": "تميز خدمات القهوجين لدينا",
+    "description": "اختيارنا يعني احترافية، جودة، وسرعة في تقديم خدمات القهوجين في الرياض.",
+    "features": [
+      {
+        "icon": "Award",
+        "title": "احترافية عالية",
+        "description": "فريق قهوجين مؤهل وذو خبرة لتقديم أفضل تجربة ضيافة."
+      },
+      {
+        "icon": "Clock",
+        "title": "سرعة ومرونة",
+        "description": "نقدم خدماتنا حسب جدولك واحتياجات مناسبتك بسرعة وكفاءة."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "رضا العملاء",
+        "description": "نسعى لتجربة ضيافة مميزة لضيوفك ورضا كامل لكل عملائنا."
+      }
+    ]
+  },
+  "contactSection": {
+    "label": "تواصل معنا",
+    "title": "احجز فريق القهوجين الآن",
+    "description": "تواصل معنا عبر الهاتف، واتساب أو البريد الإلكتروني لتنظيم مناسبتك مع أفضل القهوجين في الرياض."
+  },
+  "galleryImages": [
+    {
+      "url": "https://res.cloudinary.com/dg8bbwiu5/image/upload/v1770752129/uploads/t23ypthog7jroytigxxp.jpg",
+      "alt": "قهوجي يقدم القهوة العربية"
+    },
+    {
+      "url": "https://res.cloudinary.com/dg8bbwiu5/image/upload/v1770553368/uploads/jgbozwvy234vijcrhli7.jpg",
+      "alt": "صبابين يقدم المشروبات للضيوف"
+    },
+    {
+      "url": "https://res.cloudinary.com/dg8bbwiu5/image/upload/v1770552988/uploads/hbverf47nmivxrn8rgwk.jpg",
+      "alt": "خدمة ضيافة متكاملة في مناسبة"
+    },
+    {
+      "url": "https://res.cloudinary.com/dg8bbwiu5/image/upload/v1769771207/projects/cml0pt2jr0000rgu50g370mil/gallery/gnidbnplcjhlta1syeah.jpg",
+      "alt": "قهوجي مناسبات يقدم القهوة العربية الأصيلة"
+    },
+    {
+      "url": "https://res.cloudinary.com/dg8bbwiu5/image/upload/v1769771166/projects/cml0pt2jr0000rgu50g370mil/gallery/pmfdjkwnzsp6q0xhha62.jpg",
+      "alt": "قهوجي الرياض لفعاليات الشركات والمؤتمرات"
+    },
+    {
+      "url": "https://res.cloudinary.com/dg8bbwiu5/image/upload/v1769771144/projects/cml0pt2jr0000rgu50g370mil/gallery/fikakg7deae8cngjeosh.jpg",
+      "alt": "قهوجي حفلات زفاف يقدم ضيافة قهوة عربية فاخرة"
+    }
+  ]
+}
