@@ -5,6 +5,8 @@ import "./globals.css";
 import { APP_URL, CurrentProjectId } from "@/lib/ProjectId";
 import { StructuredData } from "@/components/StructuredData";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
+
 const cairoFont = Cairo({
   weight: ["1000", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["arabic"],
@@ -65,6 +67,9 @@ export async function generateMetadata(): Promise<Metadata> {
       alternates: {
         canonical: process.env.NEXT_PUBLIC_APP_URL,
       },
+      verification: {
+        google: "9RAO4nSQ-PmO_ruv4V-M_UWQMNK6g7IIe_NLVyZagso",
+      },
     };
   } catch (error) {
     console.error("Metadata fetch failed:", error);
@@ -96,7 +101,9 @@ export default async function RootLayout({
       </head>
       <body className={`${cairoFont.className} antialiased`}>
         {children}
-        {/* <Script id="clixtell-tracking" strategy="afterInteractive">
+        <Analytics />
+
+        <Script id="clixtell-tracking" strategy="afterInteractive">
           {`
             var script = document.createElement('script');
             var prefix = document.location.protocol;
@@ -113,7 +120,7 @@ export default async function RootLayout({
             src="//tracker.clixtell.com/track/t.gif"
             alt="clixtell-tracker"
           />
-        </noscript> */}
+        </noscript>
       </body>
     </html>
   );
