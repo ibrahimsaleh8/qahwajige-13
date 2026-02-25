@@ -2,17 +2,15 @@
 import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
 import FAQSection from "@/components/FAQSection";
-import Footer from "@/components/Footer";
 import { GallerySection } from "@/components/GallerySection";
-import { Header } from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
 import PremiumPackagesSection from "@/components/PremiumPackagesSection";
 import { APP_URL, CurrentProjectId } from "@/lib/ProjectId";
 import { ProjectContentResponse } from "@/lib/responseType";
-import FloatedIcons from "@/components/FloatedIcons";
 import RatingSection from "@/components/RatingSection";
 import CommentsSection from "@/components/CommentsSection";
+import PreventCopy from "@/components/PreventCopy";
 
 export default async function HomePage() {
   let data;
@@ -43,8 +41,7 @@ export default async function HomePage() {
     };
   }
   return (
-    <div className="min-h-screen overflow-x-hidden">
-      <Header brandName={data.header.brandName} telephone={data.footer.phone} />
+    <main className="min-h-screen overflow-x-hidden">
       <HeroSection {...data.hero} aboutImage={data.about.image ?? ""} />
       <AboutSection
         {...data.about}
@@ -65,13 +62,10 @@ export default async function HomePage() {
       />
 
       <FAQSection />
+      <PreventCopy />
+
       <GallerySection gallery={data.gallery} />
-      <FloatedIcons
-        whatsapp={data.hero?.whatsApp ?? ""}
-        telephone={data.footer.phone ?? ""}
-      />
       <ContactSection {...data.footer} whatsapp={data.hero?.whatsApp ?? ""} />
-      <Footer {...data.footer} description={data.hero?.subheadline} />
-    </div>
+    </main>
   );
 }

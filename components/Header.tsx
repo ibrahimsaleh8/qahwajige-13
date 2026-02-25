@@ -9,12 +9,12 @@ import { IoIosCall } from "react-icons/io";
 import { FaCoffee } from "react-icons/fa";
 
 const navLinks = [
-  { href: "#about", label: "قصتنا" },
-  { href: "#services", label: "ماذا نقدم" },
-  { href: "#packages", label: "خياراتنا" },
-  { href: "#faq", label: "الأسئلة المهمة" },
-  { href: "#gallery", label: "لحظاتنا" },
-  { href: "#contact", label: "تواصل الآن" },
+  { href: "/#about", label: "قصتنا" },
+  { href: "/#services", label: "ماذا نقدم" },
+  { href: "/#packages", label: "خياراتنا" },
+  { href: "/articles", label: "مقالاتنا" },
+  { href: "/#gallery", label: "لحظاتنا" },
+  { href: "/#contact", label: "تواصل الآن" },
 ];
 
 export function Header({

@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { Cairo } from "next/font/google";
 import "./globals.css";
 import { APP_URL, CurrentProjectId } from "@/lib/ProjectId";
-import { StructuredData } from "@/components/StructuredData";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 
@@ -85,20 +84,8 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const res = await fetch(
-    `${APP_URL}/api/project/${CurrentProjectId}/metadata`,
-  );
-  const data: MetaDataResponseDataType = await res.json();
-
   return (
     <html lang="ar" dir="rtl">
-      <head>
-        <StructuredData
-          name={data.brandName}
-          description={data.description}
-          url={process.env.NEXT_PUBLIC_APP_URL as string}
-        />
-      </head>
       <body className={`${cairoFont.className} antialiased`}>
         {children}
         <Analytics />
