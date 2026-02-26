@@ -91,13 +91,9 @@ export default function Footer({
         {/* Bottom Bar */}
         <div className="border-t border-black/10">
           <div className="container mx-auto px-4 py-6 flex items-center justify-between flex-wrap gap-5">
-            <p className="text-black/60 text-sm">
+            <p className="text-black/60 text-sm text-center mx-auto">
               © {currentYear} {brandName}. جميع الحقوق محفوظة
             </p>
-            <div className="flex items-center gap-6 text-xs text-low-color">
-              <Link href={"/privacy"}>سياسة الخصوصية</Link>
-              <Link href={"/terms"}>الشروط والأحكام</Link>
-            </div>
           </div>
         </div>
       </div>
